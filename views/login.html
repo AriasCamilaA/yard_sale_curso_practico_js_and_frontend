@@ -11,22 +11,30 @@
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-  <div class="login">
-    <div class="form-container">
-      <img src="../assets/icons/logo_yard_sale.svg" alt="logo" class="logo">
-
-      <form action="/" class="form">
-        <label for="email" class="label">Email address</label>
-        <input type="text" id="email" placeholder="platzi@example.cm" class="input input-email">
-
-        <label for="password" class="label">Password</label>
-        <input type="password" id="password" placeholder="*********" class="input input-password">
-
-        <input type="submit" value="Log in" class="primary-button login-button">
-        <a href="/">Forgot my password</a>
-      </form>
-
-      <button class="secondary-button signup-button">Sign up</button>
+  <div class="container">
+    <div class="banner">
+      <img src="../assets/icons/logo_yard_sale.svg" alt="">
+    </div>
+    <div class="login">
+      <div class="form-container">
+        <h1 class="title">Login</h1>
+        <img src="../assets/icons/logo_yard_sale.svg" alt="logo" class="logo">
+  
+        <form action="/" class="form">
+          <label for="email" class="label">Email address</label>
+          <input type="text" id="email" placeholder="platzi@example.cm" class="input input-email" autofocus>
+  
+          <label for="password" class="label">Password</label>
+          <input type="password" id="password" placeholder="*********" class="input input-password">
+  
+          <input type="submit" value="Log in" class="primary-button login-button">
+          <a href="../views/reset_password.html">Forgot my password</a>
+        </form>
+        <p class="center">
+          You do not have an account?, 
+          <a href="../views/singing.html">Sign up</a>
+        </p>
+      </div>
     </div>
   </div>
 </body>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,26 +11,36 @@
   <title>Singing</title>
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
-<body>
-  <div class="login">
-    <div class="form-container">
-      <h1 class="title">My account</h1>
 
-      <form action="/" class="form">
-        <div>
+<body>
+  <div class="container">
+    <div class="login">
+      <div class="form-container">
+        <h1 class="title">My account</h1>
+
+        <form action="/" class="form">
+
           <label for="name" class="label">Name</label>
-          <input type="text" id="name" placeholder="Teff" class="input input-name">
+          <input type="text" id="name" placeholder="Teff" class="input input-name" autofocus>
 
           <label for="email" class="label">Email</label>
           <input type="text" id="email" placeholder="platzi@example.com" class="input input-email">
 
           <label for="password" class="label">Password</label>
           <input type="password" id="password" placeholder="*********" class="input input-password">
-        </div>
 
-        <input type="submit" value="Create" class="primary-button login-button">
-      </form>
+          <input type="submit" value="Create" class="primary-button login-button">
+        </form>
+        <p class="center">
+          You do have an account?,
+          <a href="../views/login.html">Login</a>
+        </p>
+      </div>
+    </div>
+    <div class="banner">
+      <img src="../assets/icons/logo_yard_sale.svg" alt="">
     </div>
   </div>
 </body>
+
 </html>
